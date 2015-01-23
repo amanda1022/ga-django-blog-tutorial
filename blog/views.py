@@ -12,6 +12,6 @@ def post_list(request): # simple view, accepts requests
 	# post = [post for post in posts]
 
 	return render(request, 'blog/post_list.html', {
-			'post' : posts
+			'posts' : posts
 	}) #blog/post template
 
